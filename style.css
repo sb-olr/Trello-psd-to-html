@@ -49,6 +49,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.4rem;
     text-transform: uppercase;
+    gap: 7em;
 }
 
 .contact_client-form {
@@ -114,6 +115,24 @@
 
 .contact_client-logos img:nth-child(odd) {
     margin-right: 6em;
+}
+
+/* adjust margins and gaps depending on screen size */
+@media only screen and (min-width:768px) and (max-width: 1599px) {
+    .contact_client-logos img:nth-child(odd) {
+        margin-right: 2em;
+    }
+
+    .contact_client-content {
+        gap: 2em;
+    }
+}
+
+/* change grid layout depending on screen size */
+@media only screen and (min-width:768px) and (max-width: 1240px) {
+    .contact_client-wrapper {
+        grid-template-columns: 1fr 8fr 1fr;
+    }
 }
 
 /* Footer */
