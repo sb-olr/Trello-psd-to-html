@@ -529,7 +529,7 @@ footer {
     background-color: #ffffff66;
     border: none;
     height: 3.6em;
-    padding-top: 0.4em;
+    padding: 0.4em 1.8em 0 1.8em;
 }
 
 .footer-social img {
