@@ -5,12 +5,123 @@
   font-style: inherit;
 }
 
+header {
+  background-image: url("images/bgk-header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 670px;
+  margin: auto;
+}
+
 nav {
-  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 960px;
+  width: 90%;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: start;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 100;
+  color: #00e0d0;
+}
+
+.nav-logo img {
+  margin-top: 15px;
+}
+
+.text-logo {
+  margin: 11px 0 0 11px;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 526px;
+  margin-top: 10px;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu li:hover a {
+  color: #00e0d0;
+}
+
+.nav-menu li:first-child a {
+  color: #00e0d0;
 }
 
 #hero-section {
-  color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  max-width: 940px;
+  width: 90%;
+  padding: 183px 0;
+  margin: 0 auto;
+}
+
+#hero-section h1 {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-size: 2em;
+  letter-spacing: 0.32px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.small-line {
+  background-color: #00e0d0;
+  width: 50px;
+  height: 1px;
+  margin: 21px auto 30px auto;
+}
+
+#hero-section p {
+  max-width: 771px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.7px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#hero-section button {
+  background-color: transparent;
+  color: #68d9cd;
+  border: 2px solid #68d9cd;
+  border-radius: 2px;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.6em 2.3em;
+  margin-top: 30px;
 }
 
 .container {
