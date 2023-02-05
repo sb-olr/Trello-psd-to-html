@@ -47,7 +47,6 @@
   letter-spacing: normal;
   line-height: 22px;
   color: grey;
-
 }
 
 .container .story .content h2 {
@@ -60,7 +59,7 @@
 button {
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Hammersmith One', sans-serif;
+  font-family: "Hammersmith One", sans-serif;
   color: #68d9cd;
   background-color: transparent;
   border: 2px solid #68d9cd;
@@ -104,14 +103,13 @@ button {
 
 #our-expertise {
   text-align: center;
-
 }
 
 #our-expertise h2 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 5px;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
 }
 
 #our-expertise p {
@@ -149,7 +147,6 @@ hr {
   padding-right: 23px;
   padding-left: 23px;
   padding-bottom: 1rem;
-
 }
 
 .grid-wrapper div:nth-child(2) {
@@ -158,7 +155,6 @@ hr {
   padding-left: 23px;
   padding-right: 23px;
   padding-bottom: 1rem;
-
 }
 
 .grid-wrapper div:nth-child(3) {
@@ -166,7 +162,6 @@ hr {
   padding-bottom: 2rem;
   padding-right: 23px;
   padding-left: 23px;
-
 }
 
 .grid-wrapper div:nth-child(4) {
@@ -174,8 +169,6 @@ hr {
   padding-right: 23px;
   padding-top: 1rem;
   padding-left: 23px;
-
-
 }
 
 .grid-wrapper div:nth-child(5) {
@@ -202,15 +195,14 @@ hr {
 .grid-wrapper .item p {
   padding-top: 15px;
   color: grey;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .grid-wrapper .item h5 {
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .grid-wrapper .item img {
   padding-top: 15px;
   padding-bottom: 30px;
 }
-
