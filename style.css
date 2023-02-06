@@ -165,7 +165,7 @@ nav a {
   font-style: normal;
   letter-spacing: normal;
   line-height: 22px;
-  color: grey;
+  color: rgb(134, 133, 133);
 }
 
 .container .story .content h2 {
@@ -182,7 +182,7 @@ button {
   color: #68d9cd;
   background-color: transparent;
   border: 2px solid #68d9cd;
-  padding: 0.5em 0.6em;
+  padding: 0.6em 1em;
 }
 
 .button {
@@ -227,8 +227,10 @@ button {
 #our-expertise h2 {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 5px;
-  font-family: "Playfair Display";
+  padding-bottom: 10px;
+  font-family: "PlayfairDisplay";
+  font-size: 22px;
+  font-size: 1.4rem;
 }
 
 #our-expertise p {
@@ -249,7 +251,7 @@ hr {
   justify-content: center;
   margin: 0 auto;
   padding-top: 3rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6rem;
 }
 
 .item {
@@ -314,12 +316,15 @@ hr {
 .grid-wrapper .item p {
   padding-top: 15px;
   color: grey;
-  font-family: "Roboto";
+  font-family: 'Roboto';
 }
 
 .grid-wrapper .item h5 {
-  font-family: "Roboto";
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: smaller;
 }
+
 
 .grid-wrapper .item img {
   padding-top: 15px;
@@ -464,7 +469,7 @@ hr.team-style {
 }
 
 /* all direct children of form */
-.contact_client-form form > * {
+.contact_client-form form>* {
   margin-bottom: 1.5em;
   padding: 1em;
   font-family: "Roboto", sans-serif;
@@ -473,7 +478,7 @@ hr.team-style {
 }
 
 /* placeholder properties for all direct children of class */
-.contact_client-form > * ::placeholder {
+.contact_client-form>* ::placeholder {
   color: #413d4b77;
 }
 
