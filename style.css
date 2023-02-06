@@ -97,19 +97,23 @@ nav a {
   background-color: #00e0d0;
   width: 50px;
   height: 1px;
-  margin: 21px auto 30px auto;
+  margin: 16px auto 30px auto;
 }
 
 #hero-section p {
-  max-width: 771px;
-  font-family: "Roboto";
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.7px;
-  color: #fff;
-  margin-bottom: 10px;
+width: 771px;
+height: 62px;
+color: #ffffff;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: center;
+font-style: normal;
+letter-spacing: 0.7px;
+line-height: normal;
 }
 
 #hero-section button {
@@ -120,8 +124,15 @@ nav a {
   font-family: "Hammersmith One", sans-serif;
   font-size: 1.1rem;
   text-transform: uppercase;
-  padding: 0.6em 2.3em;
+  padding: 0.6em 1.2em;
   margin-top: 30px;
+}
+
+#hero-section button:hover {
+  background-color: #68d9cd;
+  color: white;
+  text-shadow: 1px 1px 1px #9d9ab0;
+  cursor: pointer;
 }
 
 .container {
@@ -175,14 +186,23 @@ nav a {
   font-size: 1.4rem;
 }
 
-button {
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Hammersmith One", sans-serif;
-  color: #68d9cd;
+.container button {
   background-color: transparent;
+  color: #68d9cd;
   border: 2px solid #68d9cd;
-  padding: 0.6em 1em;
+  border-radius: 2px;
+  font-family: "Hammersmith One", sans-serif;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  padding: 0.6em 1.2em;
+  margin-top: 30px;
+}
+
+.container button:hover {
+  background-color: #68d9cd;
+  color: white;
+  text-shadow: 1px 1px 1px #9d9ab0;
+  cursor: pointer;
 }
 
 .button {
@@ -491,7 +511,9 @@ hr.team-style {
   font-family: "Hammersmith One", sans-serif;
   font-size: 1.1rem;
   text-transform: uppercase;
-  padding: 0.6em 2.3em;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+
 }
 
 .contact_client-form button:hover {
