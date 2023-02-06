@@ -25,7 +25,7 @@ nav {
   text-decoration: none;
 }
 
-nav a {
+nav li a {
   font-family: "Roboto";
   font-size: 13px;
   font-weight: 600;
@@ -46,6 +46,10 @@ nav a {
 
 .nav-logo img {
   margin-top: 15px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
 }
 
 .text-logo {
